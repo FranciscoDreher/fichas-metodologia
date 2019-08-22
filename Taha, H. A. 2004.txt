@@ -1,0 +1,6 @@
+Taha, H. A. (2004). Investigación de operaciones (7ma Edición). Pearson Educación.
+“Hay una multitud de situaciones, en investigación de operaciones, que se pueden modelar y
+resolver como redes (nodos conectados por ramas).”
+“Una red consiste en una serie de nodos enlazados con arcos (o ramas). La notación para describir
+una red es (N, A), donde N es el conjunto de nodos y A es el conjunto de arcos.”
+Se pueden obtener alternativas óptimas a partir de algoritmos de optimización de redes, tales como el de la ruta más corta, el de árbol de expansión mínima, del flujo máximo, entre otros; según el autor.

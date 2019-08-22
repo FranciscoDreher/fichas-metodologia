@@ -1,0 +1,3 @@
+JIMENEZ CELY, Ricardo. “Seguridad en redes vpn”,  Universidad Piloto de Colombia, 2014, pp 4.
+
+“La mayoría de empresas están utilizando las VPN para realizar el teletrabajo puesto que son la mayor garantía en cuanto a seguridad por sus protocolos  como por ejemplo Ipsec”.
