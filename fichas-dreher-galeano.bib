@@ -67,4 +67,45 @@ Para incluir contextualmente las ventajas que ofece dmvpn sobre vpn en el proyec
   url     = {https://www.cisco.com/c/en/us/products/security/dynamic-multipoint-vpn-dmvpn/index.html},
 }
 
+@Book{Maros_Spr_03,
+  title     = {Computational Techniques of the Simplex Method},
+  publisher = {Springer},
+  year      = {2003},
+  author    = {István Maros},
+  isbn      = {978-1-4613-4990-7},
+  comment   = {PROGRAMACION LINEAL
+"... the linear programming problem (also referred to as linear program, LP) is to optimize (minimize or maximize) a linear function subject to linear equality and/or inequality constraints."
+"The standard form of the LP problem is to find the minimum (or maximum) of a linear function of n nonnegative variables, x1, x2,..., xn, also called decision variables, subject to m linear equality constraints."
+
+METODO SIMPLEX
+"The main solution algorithm for the LP problem has long been the simplex method introduced by Dantzig."
+
+Traducción de google
+PROGRAMACIÓN LINEAL
+“... El problema de la programación lineal (también denominado programa lineal, PL) es optimizar (minimizar o maximizar) una función lineal sujeta a restricciones de igualdad y / o desigualdad lineal.”
+“La forma estándar del problema de LP es encontrar el mínimo (o máximo) de una función lineal de n variables no negativas, x1, x2, ..., xn, también llamadas variables de decisión, sujetas a m restricciones de igualdad lineal.”
+
+METODO SIMPLEX
+"El algoritmo de solución principal para el problema de PL ha sido durante mucho tiempo el método simplex introducido por Dantzig".
+
+Comentarios: para adicionar junto con modelos de redes y la info del metodo simplex en "Investigacion de Operaciones".
+},
+  doi       = {10.1007/978-1-4615-0257-9},
+  url       = {https://books.google.com.ar/books?hl=es&lr=&id=zkvtBwAAQBAJ&oi=fnd&pg=PA3&dq=efficiency+of+the+simplex+method&ots=Yr87VnaWE8&sig=Y5lkfQMy-3uitt52Mk6gr5JZtE0&redir_esc=y#v=onepage&q&f=false},
+}
+
+@PhdThesis{Pham_AU_12,
+  author  = {Nam Dinh Pham},
+  title   = {Improved Nelder Mead’s SimplexMethodand Applications},
+  school  = {Auburn University},
+  year    = {2012},
+  comment = {“Although the simplex method was proposed a long time ago (1965) and has not had much success in optimizing large scale problems, it is still a method of choice because of its simplicity.   As   a   matter   of   fact,   its   necessary   improvement   of   convergence   speed   and convergence  rate  is  still  an  attractive  research  topic  in  the  area  of  computing  and  optimization. For this purpose, many authors have proposed different ideas to address this issue. Fuchang Gao and Lixing Han proposed an implementation of the simplex method in which the expansion, contraction,  and  shrinking  parameters  depend  on  the  dimension  of  optimization  problems. Another author -Torczon, suggested that this poor convergence may be due to the search as direction  becomes  increasingly  orthogonal  to  the  steepest  descent  direction,  etc.  Without  any satisfactory  convergence  theory,  there  is  no  doubt  that  the  effect  of  dimensionality  should  be extended  and  investigated  more.  Clearly,  this  is  one  of  the  main  reasons  restricting  its convergence capability. This dissertation is another effort to improve the simplex algorithm with two simple solutions, which are different from other explanations in the literature. Furthermore, the  simplicity  is  also  the  main  goal  of  authors  to  keep  this  algorithm  robust  and  different  from other optimization algorithms. As  presented  shortly  in  the  overview,  the  simplex  algorithm  converges  based  on  the 14 formation of the geometric simplex and its movement to find local minima. During optimization, this  algorithm  assumes  that  the  direction  to  local  minima  can  be  found  by  the  operations  of reflection,  contraction, and  expansion  without  caring  about  the  gradient.  In  other  words,  the dynamic  change  of  a  geometric  simplex  through  these  operations  is  utilized  to  approximate better  vertices  along  the  gradient  direction.  However,  this  assumption  is  not  always  true  in reality,  and  that  explains  why  the  simplex  algorithm  fails  easily  with  high  dimensional optimization  problems.”
+
+Traducción de google
+“Aunque el método simplex fue propuesto hace mucho tiempo (1965) y no ha tenido mucho éxito en la optimización de problemas a gran escala, sigue siendo un método de elección debido a su simplicidad. De hecho, su mejora necesaria de la velocidad de convergencia y la tasa de convergencia sigue siendo un tema de investigación atractivo en el área de la computación y la optimización. Para este propósito, muchos autores han propuesto diferentes ideas para abordar este problema. Fuchang Gao y Lixing Han propusieron una implementación del método simplex en el que los parámetros de expansión, contracción y contracción dependen de la dimensión de los problemas de optimización. Otro autor -Torczon, sugirió que esta pobre convergencia puede deberse a la búsqueda a medida que la dirección se vuelve cada vez más ortogonal a la dirección de descenso más pronunciada, etc. Sin ninguna teoría de convergencia satisfactoria, no hay duda de que el efecto de la dimensionalidad debería extenderse e investigarse más. . Claramente, esta es una de las principales razones que restringen su capacidad de convergencia. Esta disertación es otro esfuerzo para mejorar el algoritmo simplex con dos soluciones simples, que son diferentes de otras explicaciones en la literatura. Además, la simplicidad es también el objetivo principal de los autores para mantener este algoritmo robusto y diferente de otros algoritmos de optimización. Como se presentó brevemente en la descripción general, el algoritmo simplex converge en base a la formación del simplex geométrico y su movimiento para encontrar mínimos locales. Durante la optimización, este algoritmo supone que las operaciones de reflexión, contracción y expansión pueden encontrar la dirección hacia los mínimos locales sin preocuparse por el gradiente. En otras palabras, el cambio dinámico de un simplex geométrico a través de estas operaciones se utiliza para aproximar mejores vértices a lo largo de la dirección del gradiente. Sin embargo, esta suposición no siempre es cierta en la realidad, y eso explica por qué el algoritmo simplex falla fácilmente con problemas de optimización de alta dimensión.”
+
+Comentarios: podemos afirmar con esto que simplex tiene uso extendido, aunque tiene complicaciones en problemas de gran escala. },
+  url     = {https://etd.auburn.edu/handle/10415/2985},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
